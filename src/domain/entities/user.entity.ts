@@ -1,6 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
-@Entity('users') // Define la tabla en MySQL
+@Entity('users')
 export class User {
   @PrimaryGeneratedColumn()
   id: number;
